@@ -11,3 +11,6 @@ While e For são duas estruturas de repetições, onde usam os mesmo quatros ele
 
 ### Questão 03
 Do while podemos usar quando queremos executar uma instrução antes da condição ser testada, ou seja executamos obrigatoriamente uma única vez independente da condição de parada. Por exemplo: Quando queremos pegar do usuário um determinado nado, é executado uma primeira vez, a partir daí se o dado for correto o programa continua, caso não é pedido novamento ao usuário.
+
+### Questão 04
+São duas instruções usadas dentro de estruturas de repetições,o break usamos quando queremos sair forçadamento do loop, já o continue usamos quando queremos pular para a reétição seguinte.
