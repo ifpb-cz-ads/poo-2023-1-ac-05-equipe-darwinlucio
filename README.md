@@ -49,3 +49,6 @@ System.out.println(counter);
 counter += 2;
 } while (counter <= 100);
 ```
+
+### Questão 06
+O código irá printar uma matriz, de 10 linhas e 5 colunas. O primeiro for especifica a linha, a cada nova repetição ele entra dentro do segundo for que printa um '@' 5 vezes, ao sair do segundo for ele termina de executar o primeiro dando um quebra de linha com 'System.out.println()'
