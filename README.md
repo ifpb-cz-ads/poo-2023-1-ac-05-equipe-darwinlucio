@@ -14,3 +14,38 @@ Do while podemos usar quando queremos executar uma instrução antes da condiç�
 
 ### Questão 04
 São duas instruções usadas dentro de estruturas de repetições,o break usamos quando queremos sair forçadamento do loop, já o continue usamos quando queremos pular para a reétição seguinte.
+
+### Questão 05
+- A) Aqui temos um erros de sintaxe, o comando está começando com letra maiúscula, o uso de virgulas no lugar de ponto virgula além do falta das chaves para delimitar o corpo do loop, sem contar que aí teriamos um loop infinito
+O código ideal seria assim: 
+```bash
+for(i = 100; i <= 1; i++){
+  System.out.println(i);
+}
+```
+- B) Apesar da lógica está correta, vemos que está faltando o comando break para sair do switch quando um caso for indenficado
+O código ideal seria assim:
+```bash
+switch (value % 2) {
+  case 0:
+    System.out.println("Inteiro par");
+    break
+  case 1:
+    System.out.println("Inteiro ímpar");
+    break
+}
+```
+- C) Podemos ver de cara que o corpo do loop está fora das chaves, além de que por causa do 'i+=2' o loop será infinito, não dando um resultado correto. O código ideal seria assim:
+```bash
+for(i = 19; i >= 1; i-=2){
+  System.out.println(i);
+}
+```
+- D) Nesse caso existe um erro de lógica, na condiçaõ de parada, ou seja imprimirá somente até o 98, outro erro poderia ser a variável counter que não tem tipo, mas pode-se entender que elas já tenha sido criada anteriormente. O código ideal seria assim:
+```bash
+counter = 2;
+do {
+System.out.println(counter);
+counter += 2;
+} while (counter <= 100);
+```
